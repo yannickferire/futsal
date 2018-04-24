@@ -1,3 +1,23 @@
 page-home {
-
+    .card {
+        margin: 24px 12px 12px;
+        position: relative;
+        overflow: visible;
+        .card-header {
+            overflow: visible;
+            .card-header--profile {
+                display: block;
+                max-width: 80px;
+                position: absolute; top: -12px;
+                overflow: hidden;
+                -webkit-border-radius: 50%;
+                border-radius: 50%;
+            }
+            .card-header--infos {
+                display: block;
+                padding-left: 100px;
+                h3 { font-size: 20px; font-weight: bold; }
+            }
+        }
+    }
 }
